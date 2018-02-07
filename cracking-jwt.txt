@@ -1,0 +1,2 @@
+Command:
+/usr/bin/nodejs src/server.js eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiIxMjM0NTY3ODkwIiwiZXhwaXJhdGlvbiI6IjIwMTgtMDMtMDEgMDA6MDA6MDAgKzAxMDAifQ.77K2BY9k7YQNl1zyH8kguzeTCSH6tk8a4g4DwJnG9qc

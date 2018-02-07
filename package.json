@@ -22,7 +22,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/lmammino/distributed-jwt-cracker"
+    "url": "https://github.com/lmammino/distributed-jwt-cracker",
+    "lint": "eslint src/ test/",
+    "test": "npm run lint && node_modules/.bin/tap test/**/*.test.js --coverage | node_modules/.bin/tap-spec",
+    "posttest": "tap --coverage-report=lcov && node_modules/.bin/codecov"
   },
   "license": "MIT",
   "engines": {
@@ -61,5 +64,16 @@
   },
   "eslintConfig": {
     "extends": "xo-space/esnext"
+<<<<<<< 34e73e1f7f33e8e758f95d57a7f7598dc857821f
+=======
+  },
+  "bugs": {
+    "url": "https://github.com/lmammino/distributed-jwt-cracker/issues"
+  },
+  "homepage": "https://github.com/lmammino/distributed-jwt-cracker#readme",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+>>>>>>> First commit
   }
 }

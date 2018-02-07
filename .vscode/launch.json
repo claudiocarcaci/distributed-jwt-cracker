@@ -1,0 +1,23 @@
+{
+	// Use IntelliSense to learn about possible attributes.
+	// Hover to view descriptions of existing attributes.
+	// For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"type": "node",
+			"request": "launch",
+			"name": "Distributed jwt server",
+			"program": "${workspaceFolder}/src/server.js",
+			"args": [
+				"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiIxMjM0NTY3ODkwIiwiZXhwaXJhdGlvbiI6IjIwMTgtMDMtMDEgMDA6MDA6MDAgKzAxMDAifQ.77K2BY9k7YQNl1zyH8kguzeTCSH6tk8a4g4DwJnG9qc"
+			]
+		},
+		{
+			"type": "node",
+			"request": "launch",
+			"name": "Distributed jwt client",
+			"program": "${workspaceFolder}/src/client.js"
+		}
+	]
+}
